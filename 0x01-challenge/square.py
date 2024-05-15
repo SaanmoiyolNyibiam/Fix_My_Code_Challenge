@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-""" a script that defines a square class """
 
 
 class square():
-    """ class that defines a square """
     width = 0
     height = 0
 
@@ -13,14 +11,12 @@ class square():
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.height
+        return self.width * self.width
 
     def PermiterOfMySquare(self):
-        """ returns the perimeter of the square"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
-        """ returns the string representation """
         return "{}/{}".format(self.width, self.height)
 
 
